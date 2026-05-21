@@ -4,8 +4,14 @@ cask "keybored" do
 
   url "https://github.com/ronykax/keybored/releases/download/v#{version}/Keybored.zip"
   name "Keybored"
-  desc "A killer utility built in Swift"
+  desc "bind commands to hotkeys"
   homepage "https://github.com/ronykax/keybored"
 
   app "Keybored.app"
+
+  # Automatically strips Gatekeeper quarantine after installation
+  postflight do
+    system_command "xattr",
+                   args: ["-cr", "#{appdir}/Keybored.app"]
+  end
 end

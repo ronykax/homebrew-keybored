@@ -4,7 +4,7 @@ cask "keybored" do
 
   url "https://github.com/ronykax/keybored/releases/download/v#{version}/Keybored.zip"
   name "Keybored"
-  desc "bind commands to hotkeys"
+  desc "hotkeys for everything"
   homepage "https://github.com/ronykax/keybored"
 
   app "Keybored.app"

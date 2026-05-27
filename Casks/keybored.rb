@@ -1,6 +1,6 @@
 cask "keybored" do
   version "1.0.3"
-  sha256 "630edc637e8a60728eec45bddc36c49fc000d242b31f7aa1ce8ae9a3a9aafa70"
+  sha256 "e4c8b0831d9ea4feff092758906eed1b44d59119d9527e4df90618ca3ed4d6b5"
 
   url "https://github.com/ronykax/keybored/releases/download/v#{version}/Keybored.zip"
   name "Keybored"
